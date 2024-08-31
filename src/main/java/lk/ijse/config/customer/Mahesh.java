@@ -13,7 +13,7 @@ public class Mahesh {
 
     @Autowired
     @Qualifier("food-fishBun")
-    public void setGoodGirl(FoodLover foodLover) {
+    public void setFoodLover(FoodLover foodLover) {
         this.foodLover = foodLover;
     }
 
