@@ -1,4 +1,13 @@
 package lk.ijse.config.food;
 
-public class FishBun {
+import lk.ijse.config.FoodLover;
+import org.springframework.stereotype.Component;
+
+@Component
+public class FishBun implements FoodLover {
+    @Override
+    public void loveFood() {
+
+        System.out.println("fish bun");
+    }
 }

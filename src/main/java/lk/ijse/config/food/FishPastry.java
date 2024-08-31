@@ -1,4 +1,12 @@
 package lk.ijse.config.food;
 
-public class FishPastry {
+import lk.ijse.config.FoodLover;
+import org.springframework.stereotype.Component;
+
+@Component
+public class FishPastry implements FoodLover {
+    @Override
+    public void loveFood() {
+
+    }
 }
